@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "质量文件",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#2196F3",
+  "navigationBarTextStyle": "white"
+}

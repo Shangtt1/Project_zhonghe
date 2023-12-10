@@ -1,0 +1,9 @@
+<view class="page">
+    <view class="" wx:for="{{seriesData}}" wx:key="index">
+        <view class="item">
+            <view class="inputLongContent">{{item.fileName}}</view>
+            <button bindtap="previewFile" class="my-button" data-download-name="{{item.fileName}}" data-url="{{item.fileUrl}}">点击查看</button>
+            <view id="fileContent"></view>
+        </view>
+    </view>
+</view>

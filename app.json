@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/webpages/webpages",
+    "pages/values/values",
+    "pages/search/search",
+    "pages/introduction/introduction",
+    "pages/putIn/putIn",
+    "pages/quality/quality"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  }
+}

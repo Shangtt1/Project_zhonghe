@@ -1,0 +1,5 @@
+.userinfo {
+    align-items: center;
+    color: #aaa;
+    flex-direction: column;
+}

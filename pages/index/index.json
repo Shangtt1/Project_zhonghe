@@ -1,0 +1,7 @@
+{
+    "usingComponents": {},
+    "navigationBarTitleText": "中核二维码",
+    "enablePullDownRefresh": true,
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black"
+}

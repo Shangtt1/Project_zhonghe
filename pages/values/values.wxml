@@ -1,0 +1,91 @@
+<view class="page">
+    <view class="container">
+        <view class="item">
+            <text class="label">组织名称：
+ CompanyName</text>
+            <text class="value">{{companyName}}</text>
+        </view>
+        <view class="item">
+            <text class="label">销售合同号
+SalesContract </text>
+            <text class="value">{{orderContractId}}</text>
+        </view>
+        <view class="item">
+            <text class="label">生产令号
+              ProductNum</text>
+            <text class="value">{{productNum}}</text>
+        </view>
+        <!-- <view class="item">
+            <text class="label">销售订单号
+SalesOrderNum</text>
+            <text class="value">{{orderNumber}}</text>
+        </view> -->
+        <view class="item">
+            <text class="label">产品图号
+Prd.DWG.No</text>
+            <text class="value">{{productPicId}}</text>
+        </view>
+        <view class="item">
+            <text class="label">客户图号
+Customer.DWG.NO</text>
+            <text class="value">{{customerPicId}}</text>
+        </view>
+        <view class="item">
+            <text class="label">客户编码
+CustomerCode</text>
+            <text class="value">{{customerId}}</text>
+        </view>
+
+        <!-- <view class="item">
+            <text class="label">参考物料2
+ Content</text>
+            <text class="value">{{ProductDes}}</text>
+        </view> -->
+        <!-- <view class="item">
+            <text class="label">序列号
+SeriaNo</text>
+            <text class="value">{{serialName}}</text>
+        </view> -->
+        <view class="item">
+            <text class="label">订单数量
+OrdNum</text>
+            <text class="value">{{number}}</text>
+        </view>
+        <view class="item">
+            <text class="label">口径
+Diameter</text>
+            <text class="value">{{caliber}}</text>
+        </view>
+
+        <!-- <view class="item">
+            <text class="label">物料主分类
+MaterialType</text>
+            <text class="value">{{materialType}}</text>
+        </view> -->
+        <!-- <view class="item">
+            <text class="label">物料号
+MaterialCode</text>
+            <text class="value">{{materialCode}}</text>
+        </view> -->
+        <view class="item">
+            <text class="label">压力等级
+LeverPressure</text>
+            <text class="value">{{leverPressure}}</text>
+        </view>
+       
+        <view class="item">
+            <text class="label">说明书
+Introduction</text>
+            <navigator url="/pages/introduction/introduction?materialType={{materialType}}&leverPressure={{leverPressure}}&caliber={{caliber}}">
+                <text class="link">点击查看</text>
+            </navigator>
+        </view>
+        <view class="item">
+            <text class="label">质量文件 
+            QualityFile</text>
+            <navigator url="/pages/quality/quality?productNum={{productNum}}">
+                <text class="link">点击查看</text>
+            </navigator>
+        </view>
+    </view>
+</view>

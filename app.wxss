@@ -1,0 +1,33 @@
+.container,page {
+    height: 100%;
+}
+
+.container {
+    align-items: center;
+    background-position: 50%;
+    background-size: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.auto {
+    top: 0;
+}
+
+.auto,.button {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+}
+
+.button {
+    background: rgba(97,97,97,0);
+    border-radius: 8px;
+    height: 10%;
+    opacity: .1;
+    top: 73%;
+    width: 20%;
+}

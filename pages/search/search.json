@@ -1,0 +1,7 @@
+{
+    "usingComponents": {},
+    "navigationBarTitleText": "阀门查询",
+    "enablePullDownRefresh": true,
+    "navigationBarBackgroundColor": "#2196F3",
+    "navigationBarTextStyle": "white"
+}

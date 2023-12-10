@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "输入页面",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#2196F3",
+  "navigationBarTextStyle": "white"
+}
